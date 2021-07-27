@@ -11,6 +11,6 @@ if (typeof userInput === 'string') {
 // never type. it will never return anything
 function generateError (message: string, code: number): never {
   throw { message: message, errorCode: code }
-  // while (true) {}
+  // while (true) {} //infinity loop
 }
 generateError('An Error Occured!', 500)
