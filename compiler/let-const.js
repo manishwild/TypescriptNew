@@ -1,7 +1,7 @@
 "use strict";
-var num1;
-var num2 = 10;
-var obj1 = {
+let num1;
+const num2 = 10;
+const obj1 = {
     name: 'man'
 };
 console.log(obj1.name);
