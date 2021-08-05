@@ -14,7 +14,7 @@ function addHandle (n1: number, n2: number, cb: (num: number) => void) {
 addHandle(10, 20, (result) => {
   console.log(result)
 })
-
+// function type not a arrow function thats why no curly braces{}
 let combineValue: (a: number, b: number) => number
 
 combineValue = add

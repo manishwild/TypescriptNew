@@ -8,7 +8,7 @@ if (typeof userInput === 'string') {
   userName = userInput
 }
 
-// never type. it will never return anything
+// never type. it will never return anything. it will always crashes the script
 function generateError (message: string, code: number): never {
   throw { message: message, errorCode: code }
   // while (true) {} //infinity loop

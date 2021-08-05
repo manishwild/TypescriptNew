@@ -1,8 +1,9 @@
 // Literal types
 // union type eg. resultCoversion: 'as-number' | 'as-text'
 type Combinable = number | string // resuable Type Aliases
+type ConversionDesriptor = 'as-number' | 'as-text'
 
-function combine (input1: Combinable, input2: Combinable, resultCoversion: 'as-number' | 'as-text') {
+function combine (input1: Combinable, input2: Combinable, resultCoversion: ConversionDesriptor) {
   let result
   if (typeof input1 === 'number' && typeof input2 === 'number' || resultCoversion === 'as-number') {
     result = +input1 + +input2

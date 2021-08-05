@@ -8,7 +8,7 @@
 //   name: 'Manish',
 //   age: 35,
 //   hobbies: ['sports', 'Cooking'],
-//   role: [2, 'author']
+//   role: [2, 'author'] // tuples
 // }
 
 // const Admin = 0
